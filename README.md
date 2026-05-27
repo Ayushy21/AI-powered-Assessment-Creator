@@ -103,16 +103,6 @@ cd server
 npm install
 ```
 
-Create a `.env` file in the `server/` directory:
-
-```env
-PORT=5000
-MONGODB_URI=mongodb://localhost:27017/vedaai
-REDIS_HOST=localhost
-REDIS_PORT=6379
-GEMINI_API_KEY=your_gemini_api_key_here
-CLIENT_URL=http://localhost:3100
-```
 
 Start the server:
 
@@ -178,12 +168,3 @@ Contributions are welcome! Feel free to open issues or submit pull requests.
 
 ---
 
-## 📄 License
-
-This project is licensed under the ISC License.
-
----
-
-<p align="center">
-  Made with ❤️ by <a href="https://github.com/Ayushy21">Ayushy21</a>
-</p>
